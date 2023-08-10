@@ -1,0 +1,68 @@
+.video-container__header{
+
+
+    .video-player {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        iframe{
+            width: 100%;
+            height: 600px;
+            border-radius: 15px; 
+        }      
+    }
+
+    .title-content {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: linear-gradient(-75deg, #4f1bc5, #7b17c5);
+        grid-gap: 15px;
+    }
+    .title-content>* {
+        color: white;
+        margin: 0 !important;
+    }
+    .video-container-txt {
+        background-color: #6919c524;
+        padding: 20px;
+        border-radius: 15px;
+        margin-top: 10px;
+        // border-bottom-right-radius: 15px;
+        // border-bottom-left-radius: 15px;
+        p {
+            line-height: 2;
+            text-align: justify;
+        }
+    }
+}
+@media (min-width: 768px){
+.video-player {
+    height: 500px;
+    iframe{
+        width: 100% !important;
+        height: 500px !important;            
+    }
+}
+}
+@media (max-width: 415px){
+    .video-player {
+        height: 220px !important;
+        iframe{
+            width: 100% !important;
+            height: 220px !important;            
+        }
+    } 
+}
+@media (min-width: 415px) and (max-width: 768px){
+    .video-player {
+        height: 250px !important;
+        iframe{
+            width: 100% !important;
+            height: 250px !important;            
+        }
+    } 
+}

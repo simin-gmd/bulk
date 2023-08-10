@@ -1,0 +1,353 @@
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "iransans", Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+.titles{
+    margin-bottom: 0.938rem;
+    font-family: iransans;
+    font-weight: 600;
+    line-height: 1.25;
+    color: $titles;
+}
+body {
+    line-height: 1;
+  }
+
+  ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-0 {
+    margin-right: 0;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-1 {
+    margin-right: 8.33333%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-2 {
+    margin-right: 16.66667%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-3 {
+    margin-right: 25%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-4 {
+    margin-right: 33.33333%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-5 {
+    margin-right: 41.66667%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-6 {
+    margin-right: 50%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-7 {
+    margin-right: 58.33333%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-8 {
+    margin-right: 66.66667%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-9 {
+    margin-right: 75%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-10 {
+    margin-right: 83.33333%;
+  }
+
+  /* line 73, node_modules/bootstrap/scss/mixins/_grid-framework.scss */
+  .offset-xl-11 {
+    margin-right: 91.66667%;
+  }
+
+
+/* line 1, src/assets/scss/objects/_objects.custom-padding.scss */
+.ptb-100 {
+  padding: 100px 0;
+}
+
+/* line 4, src/assets/scss/objects/_objects.custom-padding.scss */
+.pt-100 {
+  padding-top: 100px;
+}
+
+/* line 7, src/assets/scss/objects/_objects.custom-padding.scss */
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+/* line 11, src/assets/scss/objects/_objects.custom-padding.scss */
+.ptb-80 {
+  padding: 80px 0;
+}
+
+/* line 14, src/assets/scss/objects/_objects.custom-padding.scss */
+.pt-80 {
+  padding-top: 80px;
+}
+
+/* line 17, src/assets/scss/objects/_objects.custom-padding.scss */
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+/* line 20, src/assets/scss/objects/_objects.custom-padding.scss */
+.ptb-60 {
+  padding: 60px 0;
+}
+
+/* line 23, src/assets/scss/objects/_objects.custom-padding.scss */
+.pt-60 {
+  padding-top: 60px;
+}
+
+/* line 26, src/assets/scss/objects/_objects.custom-padding.scss */
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.mt--80 {
+  margin-top: -80px;
+}
+
+/* line 30, src/assets/scss/objects/_objects.custom-padding.scss */
+.ptb-40 {
+  padding: 40px 0;
+}
+
+/* line 33, src/assets/scss/objects/_objects.custom-padding.scss */
+.pt-40 {
+  padding-top: 40px;
+}
+
+/* line 36, src/assets/scss/objects/_objects.custom-padding.scss */
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+/* line 40, src/assets/scss/objects/_objects.custom-padding.scss */
+.ptb-20 {
+  padding: 20px 0;
+}
+
+/* line 43, src/assets/scss/objects/_objects.custom-padding.scss */
+.pt-20 {
+  padding-top: 20px;
+}
+
+/* line 46, src/assets/scss/objects/_objects.custom-padding.scss */
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+
+  /* line 52, src/assets/scss/objects/_objects.custom-padding.scss */
+  .ptb-100 {
+    padding: 55px 0;
+  }
+
+  /* line 56, src/assets/scss/objects/_objects.custom-padding.scss */
+  .pt-100 {
+    padding-top: 55px;
+  }
+
+  /* line 60, src/assets/scss/objects/_objects.custom-padding.scss */
+  .pb-100 {
+    padding-bottom: 55px;
+  }
+
+  /* line 63, src/assets/scss/objects/_objects.custom-padding.scss */
+  .ptb-80 {
+    padding: 45px 0;
+  }
+
+  /* line 66, src/assets/scss/objects/_objects.custom-padding.scss */
+  .pt-80 {
+    padding-top: 45px;
+  }
+
+  /* line 69, src/assets/scss/objects/_objects.custom-padding.scss */
+  .pb-80 {
+    padding-bottom: 45px;
+  }
+
+  /* line 72, src/assets/scss/objects/_objects.custom-padding.scss */
+  .ptb-60 {
+    padding: 30px 0;
+  }
+
+  /* line 75, src/assets/scss/objects/_objects.custom-padding.scss */
+  .pt-60 {
+    padding-top: 30px;
+  }
+
+  /* line 78, src/assets/scss/objects/_objects.custom-padding.scss */
+  .pb-60 {
+    padding-bottom: 30px;
+  }
+
+  /* line 81, src/assets/scss/objects/_objects.custom-padding.scss */
+  .ptb-40 {
+    padding: 20px 0;
+  }
+
+  /* line 84, src/assets/scss/objects/_objects.custom-padding.scss */
+  .pt-40 {
+    padding-top: 20px;
+  }
+
+  /* line 87, src/assets/scss/objects/_objects.custom-padding.scss */
+  .pb-40 {
+    padding-bottom: 20px;
+  }
+}
+.bld-text {
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}

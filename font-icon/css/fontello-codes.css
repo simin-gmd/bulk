@@ -1,0 +1,20 @@
+
+.mnp-ordering:before { content: '\e801'; } /* '' */
+.mnp-fast-food:before { content: '\e802'; } /* '' */
+.mnp-info:before { content: '\e803'; } /* '' */
+.mnp-filter:before { content: '\e804'; } /* '' */
+.mnp-delivery:before { content: '\e805'; } /* '' */
+.mnp-alarm:before { content: '\e806'; } /* '' */
+.mnp-dark-light:before { content: '\e807'; } /* '' */
+.mnp-color:before { content: '\e808'; } /* '' */
+.mnp-restaurant:before { content: '\e809'; } /* '' */
+.mnp-qr-code:before { content: '\e80a'; } /* '' */
+.mnp-translate:before { content: '\e80b'; } /* '' */
+.mnp-reset:before { content: '\e80c'; } /* '' */
+.mnp-waiter:before { content: '\e80d'; } /* '' */
+.mnp-report:before { content: '\e80e'; } /* '' */
+.mnp-camp:before { content: '\e80f'; } /* '' */
+.mnp-instagram:before { content: '\e810'; } /* '' */
+.mnp-rate:before { content: '\e811'; } /* '' */
+.mnp-card:before { content: '\e812'; } /* '' */
+.mnp-self-food:before { content: '\e813'; } /* '' */

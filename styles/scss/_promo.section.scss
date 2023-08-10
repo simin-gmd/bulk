@@ -1,0 +1,148 @@
+.promo-section {
+    .effect-2 {
+        position: absolute;
+        bottom: -70px;
+        left: -170px;
+        width: 100%;
+        height: 100%;
+        opacity: .05;
+    }
+.text-secondary{
+
+        text-align: justify;
+    
+}
+    .card {
+        margin-bottom: 30px;
+        background-color: transparent;
+        border: none;
+        border-radius: 10px;
+
+        .card-icon {
+            position: relative;
+            overflow: hidden;
+            width: 64px;
+            height: 64px;
+            line-height: 64px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 32px;
+            margin-bottom: -32px;
+            -webkit-margin-start: 30px;
+            margin-inline-start: 30px;
+            z-index: 2;
+            border-radius: 5px;
+            background-color: #4A00E0;
+            background-image: linear-gradient(113.54deg, #4A00E0 15.17%, #8E2DE2 84.83%);
+            -webkit-transition: all 1s linear;
+            transition: all 1s linear;
+
+            &::after {
+                position: absolute;
+                content: '';
+                top: 2px;
+                left: 2px;
+                width: 60px;
+                height: 60px;
+                border-radius: 4px;
+                background-color: #ffffff;
+                background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ffffff), color-stop(70%, #ffffff));
+                background-image: linear-gradient(to bottom, #ffffff 30%, #ffffff 70%);
+                z-index: -1;
+                opacity: 0;
+                -webkit-transition: all .5s ease-out;
+                transition: all .5s ease-out;
+            }
+
+        }
+
+        .card-content {
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            padding: 30px;
+        height: 270px;
+
+            &::before {
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #4A00E0;
+                background-image: linear-gradient(113.54deg, #4A00E0 15.17%, #8E2DE2 84.83%);
+                border-radius: 5px;
+                opacity: 1;
+                z-index: -2;
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                top: 2px;
+                left: 2px;
+                width: calc(100% - 4px);
+                height: calc(100% - 4px);
+                background-color: #ffffff;
+                border-radius: 4px;
+                z-index: -1;
+                opacity: 1;
+                -webkit-transition: all .5s ease-out;
+                transition: all .5s ease-out;
+            }
+
+            .card-title {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                font-size: 1.3rem;
+                font-weight: bold ;
+                white-space: nowrap;
+            }
+
+            .card-title,
+            .card-text {
+                -webkit-transition: color .3s ease-out;
+                transition: color .3s ease-out;
+                -webkit-transition-delay: 100ms;
+                transition-delay: 100ms;
+                text-align: justify;
+            }
+        }
+
+        &:hover {
+            .card-icon {
+                &::after {
+                    opacity: 1;
+                    -webkit-transform: none;
+                    transform: none;
+                }
+
+                i {
+                    background-image: linear-gradient(113.54deg, #4A00E0 15.17%, #8E2DE2 84.83%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+            }
+
+            .card-content {
+                &::after {
+
+                    opacity: 0;
+                    -webkit-transform: translateY(120%);
+                    transform: translateY(120%);
+                }
+
+                .card-title {
+                    color: #ffffff;
+                }
+
+                .card-text {
+                    color: #F2F2F2;
+                }
+            }
+        }
+
+    }
+}

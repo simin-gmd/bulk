@@ -1,0 +1,165 @@
+#faq {
+    .hr_ {
+        hr {
+            height: 2px;
+            border: 0;
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #68718fbd, rgba(255, 0, 0, 0));
+            margin: 1rem 0;
+            /* position: absolute; */
+            text-align: center;
+            margin: -30px 0;
+            font-size: 4.5rem;
+            z-index: 999;
+            color: #006cb3;
+        }
+
+        h2 {
+            display: inline-flex;
+            /* height: 100%; */
+            background: #ffffff;
+            /* margin-bottom: 25px; */
+            padding: 0 15px;
+            position: relative;
+            /* line-height: 1.4; */
+            font-weight: 600;
+            color: #0C2D48;
+            white-space: break-spaces;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #0C2D48;
+        }
+    }
+
+    // .accordion>.card:not(:last-of-type) {
+    //     border-bottom: 0;
+    //     border-bottom-left-radius: 0;
+    //     border-bottom-right-radius: 0;
+    // }
+    .accordion>.card {
+        overflow: hidden;
+    }
+
+    .accordion>.card>.card-header {
+        border-radius: 0;
+        margin-bottom: -1px;
+    }
+
+    .faq-wrap {
+        .card {
+            border: 0;
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(72, 94, 144, 0.16);
+            border-radius: 0.25rem;
+            cursor: pointer;
+
+            a {
+                color: #6730e3 !important;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .card-header.collapsed {
+                &::after {
+                    content: "\002b";
+                    -webkit-transition: 0.5s;
+                    transition: 0.5s;
+                    color: initial;
+                }
+            }
+
+            .card-header.collapsed {
+                background: transparent;
+
+                h6 {
+                    color: initial;
+                }
+            }
+
+            .card-header {
+                padding: 0.95rem 1.25rem;
+                -webkit-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.12);
+                box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.12);
+                border-radius: 4px 4px 0 0;
+                background: linear-gradient(-75deg, #4f1bc5, #7b17c5);
+                margin-bottom: 0;
+                border: 1px solid rgba(72, 94, 144, 0.16);
+
+                &::after {
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    color: initial;
+                    // content: \02F0;
+                    content: "\2012";
+                    float: left;
+                    -webkit-transition: 0.5s;
+                    transition: 0.5s;
+                    width: 30px;
+                    text-align: center;
+                    background: #b9a0f2;
+                    border-radius: 4px;
+                }
+
+                h6 {
+                    color: #fff;
+                }
+            }
+
+            .card-body {
+                background: #f5f5f5;
+                border-radius: 0 0 4px 4px;
+                transition: 0.3s;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.cartbox-animate__content.active {
+    max-height: 140px;
+    transition: 0.4s;
+    opacity: 1;
+    padding: 0 10px;
+}
+
+.cartbox-animate__content {
+    width: 100%;
+    max-height: 0px;
+    transition: 0.4s;
+    overflow: hidden;
+    border-radius: 0 0 15px 15px;
+    opacity: 0;
+    background-color: white;
+    padding: 0px;
+}
+.cartbox-animate {
+    width: 100%;
+    justify-content: center;
+    background: #ffffff78;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 0.2s;
+    grid-gap: 20px;
+    cursor: pointer;
+  }
+  .bld-text {
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
