@@ -46,21 +46,33 @@
     </div>
     <!--preloader end-->
     <!--header section start-->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg fixed-top bg-transparent pb-5 pb-lg-0">
+    <header class="header mb-5 mb-lg-0">
+        <nav class="navbar navbar-expand-lg fixed-top bg-transparent pb-5  pb-lg-0">
             <div class="container-fluid container-lg">
-                <!-- <div class="d-flex flex-row justify-content-between"> -->
                 <a class="navbar-brand" href="index.html">
                     <img src="./img/Delta-logo-blue.png" alt="لوگو" class="img-fluid" width="140px" height="100px">
                 </a>
-                <button class="navbar-toggler float-left" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <div class="d-block d-lg-none">
+                    <a href="http://bulkapp.deltagroup.ir/auth/login" target="_blank"
+                        class="d-flex align-items-center app-buy-btn btn rounded-pill page-scroll py-0 my-0">
+                        <div class="p-2 download-text text-left d-flex justify-content-center align-items-center">
+                            <svg class=" MuiSvgIcon-root MuiSvgIcon-fontSizeMedium svg-icon css-vubbuv"
+                                focusable="false" aria-hidden="true" viewBox="0 0 24 24"
+                                data-testid="LoginOutlinedIcon">
+                                <path
+                                    d="M11 7 9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z">
+                                </path>
+                            </svg>
+                            <small class="ps-2">ورود به سامانه</small>
+                            <!-- <h5 class="mb-0" style="font-size: 14px;">ویندوز</h5> -->
+                        </div>
+                    </a>
+                </div>
+                <button class="navbar-toggler float-left" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <!-- </div> -->
-
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto menu flex-column flex-lg-row">
                         <li class="nav-item"><a href="#hero" class=" nav-link"> خانه</a></li>
@@ -83,7 +95,7 @@
                         </div>
                     </a>
                 </div> -->
-                <div class=" d-none d-lg-block">
+                <div class="d-none d-lg-block">
                     <a href="http://bulkapp.deltagroup.ir/auth/login" target="_blank"
                         class="d-flex align-items-center app-buy-btn btn rounded-pill page-scroll py-0 my-0">
                         <div class="p-2 download-text text-left d-flex justify-content-center align-items-center">
@@ -371,9 +383,9 @@
 
                 <div class="col-12">
                     <div class="video-player">
-                        <iframe
-                            src="https://www.aparat.com/video/video/embed/videohash/4sWlP/vt/frame?recom=none&amp;startTime=0"
-                            frameborder="0"></iframe>
+                        <iframe src="https://www.aparat.com/video/video/embed/videohash/OXeTC/vt/frame"
+                            ?recom=none&amp;startTime=0" frameborder="0"></iframe>
+
                     </div>
                 </div>
             </div>
@@ -1198,7 +1210,7 @@
                         <div class="col-md-12">
                             <div id="accordion" class="accordion faq-wrap">
                                 <div class="card mb-3">
-                                    <a class="card-header " data-toggle="collapse" href="#collapse0"
+                                    <a class="card-header " data-bs-toggle="collapse" href="#collapse0"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             <!-- روزانه چه تعداد پیام ارسال کنیم تا اکانت نرم افزار های ما امن بماند؟ -->
@@ -1231,8 +1243,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card mb-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse1"
+                                <div class="card mt-3">
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse1"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             نکات مهم برای استفاده از نرم افزار ارسال انبوه سوشال های خارجی...
@@ -1241,6 +1253,7 @@
                                     </a>
                                     <div id="collapse1" class="collapse " data-parent="#accordion">
                                         <div class="card-body white-bg px-2">
+
                                             <p>
                                                 برای ارسال پیام به افراد آشنا (کسانی که قبلاً با آنها چت کرده‌اید) در
                                                 واتساپ با محدودیتی مواجه نیستید؛ یعنی شما میتوانید با یک خط واتساپ خود
@@ -1264,11 +1277,12 @@
                                                 در ارسال انبوه برای تلگرام شما باهر خط میتوانید روزانه 49 پیام ارسال
                                                 کنین . و برای ارسال های بیشتر بایدتعداد خطوط بیشتری داشته باشید .
                                             </p>
+
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card my-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse11"
+                                <div class="card mt-3">
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse11"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             آیا نرم افزار می‌تواند پیام‌ها را با خط خودمان ارسال کند؟
@@ -1284,8 +1298,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card my-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse2"
+                                <div class="card mt-3">
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse2"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             لایسنس خریداری شده بر روی چند کامپیوتر یا سرور قابل اجرا است؟
@@ -1301,8 +1315,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card my-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse3"
+                                <div class="card mt-3">
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse3"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             اگر سوشیال ها آپدیت شوند، نرم افزار همچنان به درستی عمل میکند؟
@@ -1317,7 +1331,7 @@
                                     </div>
                                 </div>
                                 <div class="card mt-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse4"
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse4"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             همراه نرم افزار ارسال پیام انبوه بالک، بانک شماره موبایل ارائه
@@ -1336,7 +1350,7 @@
                                     </div>
                                 </div>
                                 <div class="card mt-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse5"
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse5"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             بعد از تهیه نرم افزار ارسال پیام انبوه نیاز است هزینه اضافی‌ای پرداخت کنیم؟
@@ -1345,12 +1359,13 @@
                                     <div id="collapse5" class="collapse " data-parent="#accordion">
                                         <div class="card-body white-bg px-2">
                                             <p>
-                                                خیر فقط هزینه خرید نرم افزار است که ب صورت سالانه پرداخت میشود. </p>
+                                                خیر فقط هزینه خرید نرم افزار است که ب صورت سالانه پرداخت میشود.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card mt-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse6"
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse6"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             شارژ تمدید سالانه به چه صورت می‌باشد؟
@@ -1366,7 +1381,7 @@
                                     </div>
                                 </div>
                                 <div class="card mt-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse7"
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse7"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             آیا نرم افزار ارسال پیام انبوه بالک ارزش خرید به این قیمت را
@@ -1390,7 +1405,7 @@
                                     </div>
                                 </div>
                                 <div class="card mt-3">
-                                    <a class="card-header collapsed" data-toggle="collapse" href="#collapse8"
+                                    <a class="card-header collapsed" data-bs-toggle="collapse" href="#collapse8"
                                         aria-expanded="false">
                                         <h6 class="mb-0 d-inline-block">
                                             آیا داخل نرم افزار ارسال پیام انبوه بالک شماره مجازی وجود
@@ -1413,6 +1428,8 @@
             </div>
         </section>
         <!-- guestions section end -->
+
+
 
         <!-- gallery start -->
         <section id="slider__container" class="app-gallery container pt-5 mt-5">
@@ -1548,10 +1565,12 @@
                     </div>
                     <div class="col-lg-5 col-12 tell-social icon-social">
                         <!-- <a href="#"><img src="./img/icon/circle-facebook-2.png"></a> -->
-                        <a href="https://www.linkedin.com/company/deltagroupiran/" target="_blank"><img src="./img/icon/circle-linkdin-2.png"></a>
-                        <a href="tel:09129371058" ><img src="./img/icon/circle-telegram-2.png"></a>
-                        <a href="tel:09129371058" ><img src="./img/icon/circle-whatsapp-2.png"></a>
-                        <a href="https://www.aparat.com/deltagroupiran" target="_blank"><img src="./img/icon/circle-aparat-2.png" class="aparat"></a>
+                        <a href="https://www.linkedin.com/company/deltagroupiran/" target="_blank"><img
+                                src="./img/icon/circle-linkdin-2.png"></a>
+                        <a href="tel:09129371058"><img src="./img/icon/circle-telegram-2.png"></a>
+                        <a href="tel:09129371058"><img src="./img/icon/circle-whatsapp-2.png"></a>
+                        <a href="https://www.aparat.com/deltagroupiran" target="_blank"><img
+                                src="./img/icon/circle-aparat-2.png" class="aparat"></a>
                     </div>
                 </div>
 

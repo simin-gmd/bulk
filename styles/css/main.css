@@ -836,6 +836,11 @@ fieldset:disabled a.btn {
   height: 100% !important;
 }
 
+@media (min-width: 0px) and (max-width: 992px) {
+  .navbar {
+    background-color: rgb(238, 238, 238) !important;
+  }
+}
 .plans {
   background-image: url(../../img/blog/office.jpg);
   background-position: center top;
